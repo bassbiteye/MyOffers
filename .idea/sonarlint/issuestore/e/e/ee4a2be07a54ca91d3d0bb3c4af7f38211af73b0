@@ -1,0 +1,39 @@
+
+a
+java:S2147/"DCombine this catch with the one at line 44, which has the same body.(…‰”Ï8¨ĞÆçş.
+‚
+java:S1488C"`Immediately return this expression instead of assigning it to the temporary variable "candidat".(‹ÏÂÀûÿÿÿÿ8ÀõÑçş.
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(×ÿÂA8Óß¶çş.
+q
+java:S2095:"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8—ËÉçş.
+j
+java:S2095w"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8´ü€‘ÿ.
+j
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8´ü€‘ÿ.
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8Óß¶çş.
+q
+java:S2095V"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8©Ôïâÿ.
+q
+java:S2095y"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8©Ôïâÿ.
+l
+java:S2095_"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(÷Ëîâ8©Ôïâÿ.
+k
+java:S2095¢"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8©Ôïâÿ.
+j
+java:S20959"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8©Ôïâÿ.
+j
+java:S2095T"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8©Ôïâÿ.
+Z
+java:S1854P"8Remove this useless assignment to local variable "sql1".(­Ğ¢Îÿÿÿÿÿ8©Ôïâÿ.
+T	java:S106["9Replace this use of System.out or System.err by a logger.(ƒ„¿%8©Ôïâÿ.
+U	java:S106`"9Replace this use of System.out or System.err by a logger.(éÙÜ±8©Ôïâÿ.
+T	java:S106e"9Replace this use of System.out or System.err by a logger.(¢ÈÑ8©Ôïâÿ.
+v
+java:S2293t"YReplace the type specification in this constructor call with the diamond operator ("<>").(«¿Ÿø8©Ôïâÿ.
+[	java:S106…"9Replace this use of System.out or System.err by a logger.(¤½ìüÿÿÿÿ8©Ôïâÿ.
+V	java:S106¤"9Replace this use of System.out or System.err by a logger.(ÿê§¯8©Ôïâÿ.
+[	java:S106«"9Replace this use of System.out or System.err by a logger.(øíƒşÿÿÿÿ8©Ôïâÿ.
+K
+java:S1481P")Remove this unused "sql1" local variable.(­Ğ¢Îÿÿÿÿÿ8©Ôïâÿ.
