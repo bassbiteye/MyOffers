@@ -1,0 +1,27 @@
+
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8ß«î—ƒ/
+j
+java:S2095I"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8ş˜ƒ/
+j
+java:S2095`"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8‘¯İ—ƒ/
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(ïå‚”8ç™÷—ƒ/
+q
+java:S2095J"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8ş˜ƒ/
+j
+java:S20950"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8ç™÷—ƒ/
+i	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‡§úÉ8†öÑ—ƒ/
+i
+java:S2095a"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8‘¯İ—ƒ/
+j
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8ß«î—ƒ/
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(ÿê§¯8ç™÷—ƒ/
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ıÔÿÿÿÿÿ8ş˜ƒ/
+q
+java:S20951"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8¦Óÿ—ƒ/
+v
+java:S2293]"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ñ×©’8‘¯İ—ƒ/
+b
+java:S2147u"ECombine this catch with the one at line 114, which has the same body.(…‰”Ï8ÜØå—ƒ/
+T	java:S106 "9Replace this use of System.out or System.err by a logger.(İ°’C8ß«î—ƒ/

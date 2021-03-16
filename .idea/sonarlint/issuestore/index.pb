@@ -43,3 +43,25 @@ v
 Fsrc/main/java/com/myoffers/service/console/ConsoleDisplayCandidat.java,7/1/71012a838d5bfdf3dc7e10fc2edae932b44e5ff9
 s
 Csrc/main/java/com/myoffers/service/console/ScannerMenuCandidat.java,8/a/8a8f18b5f4d3909d25301b6d993c88b514bf48f5
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+r
+Bsrc/main/java/com/myoffers/repository/jdbc/jdbcUserRepository.java,7/a/7a9aea5288d5bcc4c15d4ba7e9e1f940d18b728b
+`
+0src/main/java/com/myoffers/service/MenuUser.java,9/3/93b2a2696cc3cda4579c83bcd3d31d6cefdf8699
+d
+4src/main/java/com/myoffers/service/MenuCandidat.java,b/5/b5d9c422caf22482de25faaac37ae2700746a78b
+c
+3src/main/java/com/myoffers/service/DisplayUser.java,c/2/c262f297055316fd9a000a9af7c3397e90e0239c
+i
+9src/main/java/com/myoffers/repository/UserRepository.java,a/7/a79f52af9fe60dbf32b8d2d1157e2125b469eb99
+r
+Bsrc/main/java/com/myoffers/service/console/ConsoleDisplayUser.java,f/a/fad4c42ec4edda6e6684f431bf64a7ee9d2c2ca1
+o
+?src/main/java/com/myoffers/controller/EntrepriseController.java,9/0/900f61b8e02c63a48c1546dbd5782ed21d76b134
+[
++src/main/java/com/myoffers/domain/User.java,4/c/4c6992ec5d03ae8be902062fcd581b9fd55a31ce
+o
+?src/main/java/com/myoffers/service/console/ScannerMenuUser.java,8/5/852b82862aa3881dd93b99722b24e00c59a50e27
+m
+=src/main/java/com/myoffers/controller/CandidatController.java,2/9/29c48aa7f3518c23d84e80a15079f6f2f7a3f305

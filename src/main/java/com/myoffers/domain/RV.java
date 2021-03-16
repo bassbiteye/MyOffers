@@ -1,27 +1,14 @@
 package com.myoffers.domain;
 
-import java.sql.Time;
-import java.util.Date;
-
 public class RV {
-    private Candidat candidat;
     private Offre offre;
-    private Date date;
-    private Time heure;
+    private String date;
+    private String heure;
 
-    public RV(Candidat candidat, Offre offre, Date date, Time heure) {
-        this.candidat = candidat;
+    public RV(Offre offre, String date, String heure) {
         this.offre = offre;
         this.date = date;
         this.heure = heure;
-    }
-
-    public Candidat getCandidat() {
-        return candidat;
-    }
-
-    public void setCandidat(Candidat candidat) {
-        this.candidat = candidat;
     }
 
     public Offre getOffre() {
@@ -32,19 +19,19 @@ public class RV {
         this.offre = offre;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
-    public Time getHeure() {
+    public String getHeure() {
         return heure;
     }
 
-    public void setHeure(Time heure) {
+    public void setHeure(String heure) {
         this.heure = heure;
     }
 }

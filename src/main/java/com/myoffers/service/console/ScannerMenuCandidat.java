@@ -2,6 +2,7 @@ package com.myoffers.service.console;
 
 import com.myoffers.domain.Candidat;
 import com.myoffers.domain.Offre;
+import com.myoffers.domain.Recruter;
 import com.myoffers.repository.CandidatRepository;
 import com.myoffers.repository.OffreRepository;
 import com.myoffers.service.DisplayCandidat;
@@ -59,10 +60,11 @@ public class ScannerMenuCandidat implements MenuCandidat {
                     displayOffre.afficherListeOffres(candidatRepository.mesOffres(id1));
                     break;
                 case 6:
-                    offreRepository.donnerRV(displayOffre.rv()[0],displayOffre.rv()[1],displayOffre.rv()[2],displayOffre.rv()[3]) ;
+                    displayCandidat.RV( candidatRepository.monRv(displayOffre.sairIdOffre(),displayOffre.saisirIdCandit()) );
                     break;
                 case 7:
-                    offreRepository.recruter(displayOffre.selectionner()[0],displayOffre.selectionner()[1]);
+                    Recruter r = candidatRepository.recruté(displayOffre.sairIdOffre(),displayOffre.saisirIdCandit());
+                    displayCandidat.Recruter(r);
                     break;
                 default:
                     displayOffre.afficherOptionInconnue();

@@ -1,8 +1,6 @@
 package com.myoffers.repository.jdbc;
 
-import com.myoffers.domain.Candidat;
-import com.myoffers.domain.Offre;
-import com.myoffers.domain.OffreUser;
+import com.myoffers.domain.*;
 import com.myoffers.repository.CandidatRepository;
 
 import java.sql.*;
@@ -144,12 +142,66 @@ public class JdbcCandidatRepository implements CandidatRepository {
     }
 
     @Override
-    public OffreUser monRv(int idOffre, int idCandidat) {
+    public RV monRv(int idOffre, int idCandidat) {
+
+        String query = "SELECT * FROM rv,offres o where id_offre=? and id_candidat=? and o.id =id_offre";
+
+        try {
+            Connection connection = dataSource.createConnection();
+
+            PreparedStatement statement = connection.prepareStatement(query);
+            statement.setInt(1, idOffre);
+            statement.setInt(2,idCandidat);
+            ResultSet rs = statement.executeQuery();
+            if (rs.next()) {
+                int id = rs.getInt("o.id");
+                String titre = rs.getString("o.titre");
+                String description = rs.getString("o.description");
+                Date date = rs.getDate("o.date");
+                String type = rs.getString("o.type");
+                String ville = rs.getString("o.ville");
+                String dateRv = rs.getString( "date");
+                String timeRv = rs.getString("heure");
+                System.out.println(titre);
+                Offre offre = new Offre( id, titre,description,date,type,ville);
+                RV rv = new RV(offre,dateRv,timeRv);
+
+            }
+        }
+        catch (Exception ex){
+            ex.printStackTrace();
+        }
         return null;
     }
 
     @Override
-    public OffreUser recruté(int idOffre, int idCandidat) {
+    public Recruter recruté(int idOffre, int idCandidat) {
+        String query = "SELECT * FROM recruter,offres o where id_offre=? and id_candidat=? and o.id =id_offre";
+
+        try {
+            Connection connection = dataSource.createConnection();
+
+            PreparedStatement statement = connection.prepareStatement(query);
+            statement.setInt(1, idOffre);
+            statement.setInt(2,idCandidat);
+            ResultSet rs = statement.executeQuery();
+            if (rs.next()) {
+                int id = rs.getInt("o.id");
+                String titre = rs.getString("o.titre");
+                String description = rs.getString("o.description");
+                Date date = rs.getDate("o.date");
+                String type = rs.getString("o.type");
+                String ville = rs.getString("o.ville");
+
+                System.out.println(titre);
+                Offre offre = new Offre( id, titre,description,date,type,ville);
+                Recruter recruter = new Recruter(offre);
+
+            }
+        }
+        catch (Exception ex){
+            ex.printStackTrace();
+        }
         return null;
     }
 

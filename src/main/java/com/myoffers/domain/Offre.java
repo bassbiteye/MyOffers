@@ -23,6 +23,9 @@ public class Offre {
 
     }
 
+    public Offre(int i, String s, String desc, String stage, String kaolack) {
+    }
+
     public int getId() {
         return id;
     }

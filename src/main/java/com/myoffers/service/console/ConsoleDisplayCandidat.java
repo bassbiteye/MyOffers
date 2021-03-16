@@ -2,6 +2,8 @@ package com.myoffers.service.console;
 
 
 import com.myoffers.domain.Candidat;
+import com.myoffers.domain.RV;
+import com.myoffers.domain.Recruter;
 import com.myoffers.service.DisplayCandidat;
 
 import java.util.Scanner;
@@ -25,7 +27,7 @@ public class ConsoleDisplayCandidat implements DisplayCandidat {
         System.out.println("4 postuler sur une offre");
         System.out.println("5 mes offres");
         System.out.println("6 mes rv");
-        System.out.println("6 je suis recruté");
+        System.out.println("7 je suis recruté");
 
     }
 
@@ -56,6 +58,18 @@ public class ConsoleDisplayCandidat implements DisplayCandidat {
         System.out.println("entrer le nom");
         candidat.setNom(sc.next());
         return candidat;
+    }
+
+    @Override
+    public void RV(RV rv) {
+        System.out.println(String.format("> %s %s %s %s %s %s", rv.getOffre().getId(), rv.getOffre().getTitre(),rv.getOffre().getDescription(),rv.getOffre().getVille(),rv.getOffre().getType()));
+        System.out.println(String.format("le rendez-vous: %s %s", rv.getDate(), rv.getHeure()));
+
+    }
+
+    @Override
+    public void Recruter(Recruter recruter) {
+        System.out.println(String.format("je suis recruté sur : %s %s %s %s %s %s", recruter.getOffre().getId(), recruter.getOffre().getTitre(),recruter.getOffre().getDescription(),recruter.getOffre().getVille(),recruter.getOffre().getType()));
     }
 
 }

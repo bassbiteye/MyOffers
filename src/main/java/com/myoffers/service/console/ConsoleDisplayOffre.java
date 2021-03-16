@@ -79,28 +79,35 @@ public class ConsoleDisplayOffre implements DisplayOffre {
 
     }
 
-    @Override
-    public String[] rv() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("saisir l'id de l'offre");
-        String a1=scanner.next();
-        System.out.println("saisir l'id du candidat");
-        String a2=scanner.next();
-        System.out.println("saisir la date ex:2020-12-12");
-        String a3=scanner.next();
-        System.out.println("saisir l'heure ex :12:14");
-        String a4=scanner.next();
 
-        return new String[]{a1, a2, a3, a4};
-    }
 
-    @Override
-    public int[] selectionner() {
+    public int sairIdOffre() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("saisir l'id de l'offre");
         int a1=scanner.nextInt();
+       return a1;
+    }
+    public int saisirIdCandit() {
+        Scanner scanner = new Scanner(System.in);
         System.out.println("saisir l'id du candidat");
-        int a2=scanner.nextInt();
-       return new int[] {a1,a2};
+        int a1=scanner.nextInt();
+        return a1;
+    }
+
+    @Override
+    public String saisirDate() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("saisir la date ex:2020-12-12");
+        String a3=scanner.next();
+        return a3;
+    }
+
+    @Override
+    public String saisirHeure() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("saisir l'heure ex :12:14");
+        String a4=scanner.next();
+        return a4;
     }
 }

@@ -10,7 +10,7 @@ public interface OffreRepository {
     int updateOffre(Offre offre);
     int deleteOffre(int id);
     int selectionner(int idOffre,int idCandidat);
-    int donnerRV(String idOffre, String idCandidat, String date, String heure);
+    int donnerRV(int idOffre, int idCandidat, String date, String heure);
     int recruter(int idOffre,int idCandidat);
 
 }

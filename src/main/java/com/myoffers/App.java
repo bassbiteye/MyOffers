@@ -1,5 +1,6 @@
 package com.myoffers;
 
+import com.myoffers.controller.AdminController;
 import com.myoffers.controller.CandidatController;
 import com.myoffers.controller.EntrepriseController;
 
@@ -24,6 +25,8 @@ public class App
         switch (choix){
             case 1:
                 System.out.println( "menu admin" );
+                AdminController adminController = new AdminController();
+                adminController.process();
                 break;
             case 2:
                 System.out.println( "menu Entreprise" );

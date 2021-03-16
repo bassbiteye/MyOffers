@@ -10,7 +10,10 @@ public interface DisplayOffre {
     void  afficherOptionInconnue();
     Offre updateOffre();
     int deleteOffre();
-    String[] rv();
-    int[] selectionner();
+
+    int sairIdOffre();
+    int  saisirIdCandit();
+    String saisirDate();
+    String saisirHeure();
 
 }

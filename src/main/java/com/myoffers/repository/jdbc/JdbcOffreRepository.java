@@ -227,9 +227,8 @@ public class JdbcOffreRepository implements OffreRepository {
 
     }
 
-
     @Override
-    public int donnerRV(String idOffre, String idCandidat, String date, String heure) {
+    public int donnerRV(int idOffre, int idCandidat, String date, String heure) {
         int ok =0;
         String sql1 = "SELECT * FROM selectionner where id_offre=? and id_candidat=?";
         String query = "SELECT * FROM rv where id_offre=? and id_candidat=?";
@@ -237,14 +236,14 @@ public class JdbcOffreRepository implements OffreRepository {
         try {
             Connection connection = dataSource.createConnection();
             PreparedStatement stment = connection.prepareStatement(sql1);
-            stment.setInt(1, Integer.parseInt(idOffre));
-            stment.setInt(2, Integer.parseInt(idOffre));
+            stment.setInt(1, idOffre);
+            stment.setInt(2, idOffre);
             ResultSet result = stment.executeQuery();
             if (result.next()) {
                 try {
                     PreparedStatement statement = connection.prepareStatement(query);
-                    statement.setInt(1, Integer.parseInt(idOffre));
-                    statement.setInt(2,Integer.parseInt(idOffre));
+                    statement.setInt(1, idOffre);
+                    statement.setInt(2,idCandidat);
                     ResultSet rs = statement.executeQuery();
                     if (rs.next()) {
                         System.out.println("candidat a déja un rv ");
@@ -253,8 +252,8 @@ public class JdbcOffreRepository implements OffreRepository {
                         String sql = "INSERT INTO rv (id_offre,id_candidat,date,heure) VALUES(?,?,?,?)";
                         PreparedStatement stm = connection.prepareStatement(sql);
                         System.out.println(idOffre);
-                        stm.setInt(1,Integer.parseInt(idOffre));
-                        stm.setInt(2, Integer.parseInt(idOffre));
+                        stm.setInt(1,idOffre);
+                        stm.setInt(2, idCandidat);
                         stm.setString(3, date);
                         stm.setString(4, heure);
 
@@ -275,10 +274,10 @@ public class JdbcOffreRepository implements OffreRepository {
             ex.printStackTrace();
         }
 
-
-
-        return ok;
+        return 0;
     }
+
+
 
     @Override
     public int recruter(int idOffre, int idCandidat) {

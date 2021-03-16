@@ -50,13 +50,13 @@ public class ScannerMenuOffre implements MenuOffre {
                     displayOffre.afficherListeOffres(offres);
                     break;
                 case 5:
-                    offreRepository.selectionner(displayOffre.selectionner()[0],displayOffre.selectionner()[1]) ;
+                    offreRepository.selectionner(displayOffre.sairIdOffre(),displayOffre.saisirIdCandit()) ;
                     break;
                 case 6:
-                    offreRepository.donnerRV(displayOffre.rv()[0],displayOffre.rv()[1],displayOffre.rv()[2],displayOffre.rv()[3]) ;
+                    offreRepository.donnerRV(displayOffre.sairIdOffre(),displayOffre.saisirIdCandit(),displayOffre.saisirDate(),displayOffre.saisirHeure()) ;
                     break;
                 case 7:
-                    offreRepository.recruter(displayOffre.selectionner()[0],displayOffre.selectionner()[1]);
+                    offreRepository.recruter(displayOffre.sairIdOffre(),displayOffre.saisirIdCandit());
                     break;
                 default:
                     displayOffre.afficherOptionInconnue();
