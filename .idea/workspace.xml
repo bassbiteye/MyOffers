@@ -5,75 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0c3dfc-8238-4578-b027-d3a60f0aa691" name="Default Changelist" comment="Merge branch 'master' of https://github.com/bassbiteye/MyOffers into prototype&#10;&#10;# Conflicts:&#10;#&#9;README.md">
-      <change afterPath="$PROJECT_DIR$/ myoffers_jdbc.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29c48aa7f3518c23d84e80a15079f6f2f7a3f305" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c6992ec5d03ae8be902062fcd581b9fd55a31ce" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a9aea5288d5bcc4c15d4ba7e9e1f940d18b728b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/852b82862aa3881dd93b99722b24e00c59a50e27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/900f61b8e02c63a48c1546dbd5782ed21d76b134" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93b2a2696cc3cda4579c83bcd3d31d6cefdf8699" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a79f52af9fe60dbf32b8d2d1157e2125b469eb99" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5d9c422caf22482de25faaac37ae2700746a78b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c262f297055316fd9a000a9af7c3397e90e0239c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fad4c42ec4edda6e6684f431bf64a7ee9d2c2ca1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/jdbc/jdbcUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/service/DisplayUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/service/MenuUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/service/console/ConsoleDisplayUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/service/console/ScannerMenuUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myoffers/repository/jdbc/JdbcCandidatRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myoffers/repository/jdbc/JdbcOffreRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myoffers/repository/jdbc/MockDatasource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myoffers/repository/jdbc/jdbcUserRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyOffers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyOffers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/143e9ac102114ea90b8082e54c3a542230f02e23" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/143e9ac102114ea90b8082e54c3a542230f02e23" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b611abf89d95dbd04ebb8480893e81f4cb35930" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b611abf89d95dbd04ebb8480893e81f4cb35930" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/622c3a30797ceca7153a275be86c80ff757e0932" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/622c3a30797ceca7153a275be86c80ff757e0932" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/703377c06d919219fc1fea57375f5c95d4e337bb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/703377c06d919219fc1fea57375f5c95d4e337bb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71012a838d5bfdf3dc7e10fc2edae932b44e5ff9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71012a838d5bfdf3dc7e10fc2edae932b44e5ff9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a8f18b5f4d3909d25301b6d993c88b514bf48f5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a8f18b5f4d3909d25301b6d993c88b514bf48f5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4c58841b29afb9c0cbec1c429681fbd945fe2a6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4c58841b29afb9c0cbec1c429681fbd945fe2a6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec7c44001e359db2ac9d4237e4f0e0c2e862db94" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec7c44001e359db2ac9d4237e4f0e0c2e862db94" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee4a2be07a54ca91d3d0bb3c4af7f38211af73b0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee4a2be07a54ca91d3d0bb3c4af7f38211af73b0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/domain/Offre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/domain/Offre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/domain/RV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/domain/RV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/domain/Recruter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/domain/Recruter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/CandidatRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/CandidatRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/OffreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/OffreRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/jdbc/JdbcCandidatRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/jdbc/JdbcCandidatRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/jdbc/JdbcOffreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/jdbc/JdbcOffreRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/service/DisplayCandidat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/service/DisplayCandidat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/service/DisplayOffre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/service/DisplayOffre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/service/console/ConsoleDisplayCandidat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/service/console/ConsoleDisplayCandidat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/service/console/ConsoleDisplayOffre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/service/console/ConsoleDisplayOffre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/service/console/ScannerMenuCandidat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/service/console/ScannerMenuCandidat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/service/console/ScannerMenuOffre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/service/console/ScannerMenuOffre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/domain/Offre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/domain/Offre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/domain/RV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/domain/RV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/domain/Recruter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/domain/Recruter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/repository/CandidatRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/repository/CandidatRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/repository/OffreRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/repository/OffreRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/repository/jdbc/JdbcCandidatRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/repository/jdbc/JdbcCandidatRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/repository/jdbc/JdbcOffreRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/repository/jdbc/JdbcOffreRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/DisplayCandidat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/service/DisplayCandidat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/DisplayOffre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/service/DisplayOffre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ConsoleDisplayCandidat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ConsoleDisplayCandidat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ConsoleDisplayOffre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ConsoleDisplayOffre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ScannerMenuCandidat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ScannerMenuCandidat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ScannerMenuOffre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ScannerMenuOffre.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,7 +226,7 @@
       <workItem from="1615628052234" duration="1180000" />
       <workItem from="1615630611163" duration="592000" />
       <workItem from="1615755542455" duration="7158000" />
-      <workItem from="1615843518462" duration="27204000" />
+      <workItem from="1615843518462" duration="27652000" />
     </task>
     <servers />
   </component>

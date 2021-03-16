@@ -15,6 +15,7 @@ et une partie pour les entreprises qui leur permettront de poster des offres sui
     valider l'inscription d'une entreprise
     bloquer une entreprise
     voir les statistiques des offres selon une entreprise
+
 #candidat
      voir la liste des offres
      voir son  profile
@@ -24,6 +25,8 @@ et une partie pour les entreprises qui leur permettront de poster des offres sui
      voir ses rendez-vous 
      verifier s'il est recruté
      notification par mail
+
+
 #entreprise
     lister ses offres
     ajouter une offre
