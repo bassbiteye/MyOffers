@@ -1,39 +1,67 @@
 
-i
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8Óß¶çş.
-U	java:S106`"9Replace this use of System.out or System.err by a logger.(éÙÜ±8©Ôïâÿ.
-j
-java:S2095w"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8´ü€‘ÿ.
-l
-java:S2095_"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(÷Ëîâ8©Ôïâÿ.
-j
-java:S20959"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8©Ôïâÿ.
-j
-java:S2095T"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8©Ôïâÿ.
-[	java:S106«"9Replace this use of System.out or System.err by a logger.(øíƒşÿÿÿÿ8©Ôïâÿ.
-j
-java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8´ü€‘ÿ.
-q
-java:S2095y"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8©Ôïâÿ.
-‚
-java:S1488C"`Immediately return this expression instead of assigning it to the temporary variable "candidat".(‹ÏÂÀûÿÿÿÿ8ÀõÑçş.
-q
-java:S2095V"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8©Ôïâÿ.
-v
-java:S2293t"YReplace the type specification in this constructor call with the diamond operator ("<>").(«¿Ÿø8©Ôïâÿ.
-a
-java:S2147/"DCombine this catch with the one at line 44, which has the same body.(…‰”Ï8¨ĞÆçş.
 Z
-java:S1854P"8Remove this useless assignment to local variable "sql1".(­Ğ¢Îÿÿÿÿÿ8©Ôïâÿ.
-q
-java:S2095:"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8—ËÉçş.
-V	java:S106¤"9Replace this use of System.out or System.err by a logger.(ÿê§¯8©Ôïâÿ.
-T	java:S106e"9Replace this use of System.out or System.err by a logger.(¢ÈÑ8©Ôïâÿ.
+java:S1854Æ"<Remove this useless assignment to local variable "recruter".(”¼Äø8™ğü×ƒ/
+[	java:S106¥"9Replace this use of System.out or System.err by a logger.(¤½ìüÿÿÿÿ8ışÔ×ƒ/
+r
+java:S2095¸"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8½âö×ƒ/
 k
-java:S2095¢"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8©Ôïâÿ.
-T	java:S106["9Replace this use of System.out or System.err by a logger.(ƒ„¿%8©Ôïâÿ.
-[	java:S106…"9Replace this use of System.out or System.err by a logger.(¤½ìüÿÿÿÿ8©Ôïâÿ.
+java:S1192€"HDefine a constant instead of duplicating this literal "o.ville" 3 times.(¯¿šøÿÿÿÿ8½âö×ƒ/
+j
+java:S2095R"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8©Ôïâÿ.
+j
+java:S1192|"HDefine a constant instead of duplicating this literal "o.titre" 3 times.(¶¥Áõşÿÿÿÿ8½âö×ƒ/
+U	java:S106^"9Replace this use of System.out or System.err by a logger.(éÙÜ±8©Ôïâÿ.
+j
+java:S2095u"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8´ü€‘ÿ.
+q
+java:S20958"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8—ËÉçş.
+v
+java:S2293r"YReplace the type specification in this constructor call with the diamond operator ("<>").(«¿Ÿø8©Ôïâÿ.
 u
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(×ÿÂA8Óß¶çş.
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(×ÿÂA8Óß¶çş.
+r
+java:S2095˜"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8ø«óÖƒ/
+k
+java:S2095–"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8ø«óÖƒ/
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8Óß¶çş.
 K
-java:S1481P")Remove this unused "sql1" local variable.(­Ğ¢Îÿÿÿÿÿ8©Ôïâÿ.
+java:S1481Æ"-Remove this unused "recruter" local variable.(”¼Äø8™ğü×ƒ/
+j
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8´ü€‘ÿ.
+d
+java:S1192~"GDefine a constant instead of duplicating this literal "o.date" 3 times.(î£ïŒ8ãê×ƒ/
+k
+java:S1192}"NDefine a constant instead of duplicating this literal "o.description" 3 times.(ŞÌ…8½âö×ƒ/
+T	java:S106Y"9Replace this use of System.out or System.err by a logger.(ƒ„¿%8©Ôïâÿ.
+T	java:S106c"9Replace this use of System.out or System.err by a logger.(¢ÈÑ8©Ôïâÿ.
+i
+java:S1192"GDefine a constant instead of duplicating this literal "o.type" 3 times.(´ı®üÿÿÿÿ8½âö×ƒ/
+[	java:S106ß"9Replace this use of System.out or System.err by a logger.(øíƒşÿÿÿÿ8©Ôïâÿ.
+j
+java:S20957"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8©Ôïâÿ.
+[	java:S106Ä"9Replace this use of System.out or System.err by a logger.(¤½ìüÿÿÿÿ8½âö×ƒ/
+‚
+java:S1488A"`Immediately return this expression instead of assigning it to the temporary variable "candidat".(‹ÏÂÀûÿÿÿÿ8ÀõÑçş.
+E
+java:S1481§"'Remove this unused "rv" local variable.(Ÿ‹öÇ8¯œŞ×ƒ/
+q
+java:S2095w"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8©Ôïâÿ.
+k
+java:S2095¶"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8½âö×ƒ/
+q
+java:S2095T"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8©Ôïâÿ.
+[	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(¤½ìüÿÿÿÿ8©Ôïâÿ.
+T
+java:S1854§"6Remove this useless assignment to local variable "rv".(Ÿ‹öÇ8úì×ƒ/
+Z
+java:S1854N"8Remove this useless assignment to local variable "sql1".(­Ğ¢Îÿÿÿÿÿ8©Ôïâÿ.
+K
+java:S1481N")Remove this unused "sql1" local variable.(­Ğ¢Îÿÿÿÿÿ8©Ôïâÿ.
+a
+java:S2147-"DCombine this catch with the one at line 42, which has the same body.(…‰”Ï8¨ĞÆçş.
+V	java:S106Ø"9Replace this use of System.out or System.err by a logger.(ÿê§¯8©Ôïâÿ.
+k
+java:S2095Ö"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8©Ôïâÿ.
+l
+java:S2095]"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(÷Ëîâ8©Ôïâÿ.

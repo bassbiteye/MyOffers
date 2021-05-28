@@ -1,1 +1,4 @@
-/home/bass-codeur/sites/java/MyOffers/src/test/java/com/myoffers/AppTest.java
+/home/bass-codeur/sites/java/MyOffers/src/test/java/com/myoffers/repository/jdbc/jdbcUserRepositoryTest.java
+/home/bass-codeur/sites/java/MyOffers/src/test/java/com/myoffers/repository/jdbc/JdbcCandidatRepositoryTest.java
+/home/bass-codeur/sites/java/MyOffers/src/test/java/com/myoffers/repository/jdbc/JdbcOffreRepositoryTest.java
+/home/bass-codeur/sites/java/MyOffers/src/test/java/com/myoffers/repository/jdbc/MockDatasource.java

@@ -65,3 +65,43 @@ o
 ?src/main/java/com/myoffers/service/console/ScannerMenuUser.java,8/5/852b82862aa3881dd93b99722b24e00c59a50e27
 m
 =src/main/java/com/myoffers/controller/CandidatController.java,2/9/29c48aa7f3518c23d84e80a15079f6f2f7a3f305
+n
+>src/test/java/com/myoffers/repository/jdbc/MockDatasource.java,5/9/59f9e54baefcce364cc4b28a375a11e4360e50f5
+v
+Fsrc/test/java/com/myoffers/repository/jdbc/jdbcUserRepositoryTest.java,2/a/2a69a047a438faba252ba21467656c1ec8b06ad6
+z
+Jsrc/test/java/com/myoffers/repository/jdbc/JdbcCandidatRepositoryTest.java,9/6/960a4364b3423c0199b3e241a6959832d3ff7a15
+w
+Gsrc/test/java/com/myoffers/repository/jdbc/JdbcOffreRepositoryTest.java,e/f/ef5c975332ec72efba45a93b8c6939bd022a7a48
+B
+ myoffers_jdbc.sql,d/0/d0126b0dcc84b2ff893d0e542e311c3ba9c350a5
+O
+src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+I
+src/main/webapp/index.jsp,8/e/8e6d3b70c9f5b02570779b0441540d45eceb0ded
+P
+ src/main/webapp/WEB-INF/user.jsp,3/b/3ba8e41030e41b617ef81ce92ee27174b9505d89
+Q
+!src/main/webapp/WEB-INF/admin.jsp,8/9/89c47dd177592b024edfc1cd84d8b91c694cab22
+_
+/src/main/webapp/WEB-INF/tags/admin_template.tag,2/c/2c99d3eee057c8f790240a4d357c0ea0df1ecfd3
+r
+Bsrc/main/java/com/myoffers/controller/servlet/RegisterServlet.java,3/6/36fd47df4a5b6a721d1dc42e00ba62ac3dcb4584
+Q
+!src/main/webapp/WEB-INF/login.jsp,4/a/4ad68415105aeafc8bfd2f975e167d09f6349f7e
+p
+@src/main/java/com/myoffers/controller/servlet/LogoutServlet.java,6/4/64bbcb3e3045b60e01495f822c0ef0a16f387538
+o
+?src/main/java/com/myoffers/controller/servlet/LoginServlet.java,2/f/2fed52468e294378c4275c9552ec35f4270f6ab6
+n
+>src/main/java/com/myoffers/controller/servlet/UserServlet.java,b/5/b57e413437a87a7656f085eb3f92ce50b61fecab
+a
+1src/main/java/com/myoffers/domain/Entreprise.java,6/d/6d487c930f0165c3fc70940838ba1ded16526cb3
+V
+&src/main/webapp/WEB-INF/entreprise.jsp,9/e/9e40ae77de5b5de61b37f948025a9cb2b1a85aa2
+o
+?src/main/java/com/myoffers/repository/EntrepriseRepository.java,a/c/ac2c934bb27454c132156a42f0244a9d1b2572df
+t
+Dsrc/main/java/com/myoffers/controller/servlet/EntrepriseServlet.java,1/1/1137af6e2c4d49c2d6f82111bb19f64feb73f5ec
+x
+Hsrc/main/java/com/myoffers/repository/jdbc/jdbcEntrepriseRepository.java,f/e/feeaa87f14107a3805b53808566386ac1b2b4696

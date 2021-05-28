@@ -1,9 +1,9 @@
 
-P
-java:S1481 ".Remove this unused "candidats" local variable.(¯—åÎüÿÿÿÿ8©ïÓíş.
 _
 java:S1854 "=Remove this useless assignment to local variable "candidats".(¯—åÎüÿÿÿÿ8©ïÓíş.
 I
 java:S1481"",Remove this unused "lastoff" local variable.(Ï©£¦8ù®’ÿ.
 X
 java:S1854"";Remove this useless assignment to local variable "lastoff".(Ï©£¦8ù®’ÿ.
+P
+java:S1481 ".Remove this unused "candidats" local variable.(¯—åÎüÿÿÿÿ8©ïÓíş.

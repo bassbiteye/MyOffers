@@ -47,6 +47,10 @@ public class ConsoleDisplayUser implements DisplayUser {
         user.setPrenom(sc.nextLine());
         System.out.println("entrer le role");
         user.setRole(sc.nextLine());
+        System.out.println("entrer le login");
+        user.setRole(sc.nextLine());
+        System.out.println("entrer le password");
+        user.setRole(sc.nextLine());
         return user;
     }
 
@@ -63,6 +67,10 @@ public class ConsoleDisplayUser implements DisplayUser {
         System.out.println("entrer la prenom");
         user.setPrenom(sc.nextLine());
         System.out.println("entrer le role");
+        user.setRole(sc.nextLine());
+        System.out.println("entrer le login");
+        user.setRole(sc.nextLine());
+        System.out.println("entrer le password");
         user.setRole(sc.nextLine());
         return user;
     }

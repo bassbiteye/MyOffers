@@ -1,32 +1,36 @@
 
-U	java:S106d"9Replace this use of System.out or System.err by a logger.(«¶Šó8•Ôïâÿ.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ó»Û­øÿÿÿÿ8Üë³íş.
-T	java:S106"9Replace this use of System.out or System.err by a logger.(åñÖV8²ü€‘ÿ.
-t
-java:S1192="WDefine a constant instead of duplicating this literal "saisir l'id de l'offre" 3 times.(«¶Šó8¯îó˜ÿ.
+Z	java:S106C"9Replace this use of System.out or System.err by a logger.(…àÙæùÿÿÿÿ8„Œîş.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¾Ô®üÿÿÿÿ8Ñö®íş.
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(úÒöŠùÿÿÿÿ8²ü€‘ÿ.
+U	java:S106V"9Replace this use of System.out or System.err by a logger.(«¶Šó8•Ôïâÿ.
+Z	java:S106m"9Replace this use of System.out or System.err by a logger.(Ô¡‚†øÿÿÿÿ8î¹œÙƒ/
 U	java:S106."9Replace this use of System.out or System.err by a logger.(Æ€È¾8½›îş.
-U	java:S106f"9Replace this use of System.out or System.err by a logger.(ë°ü 8Óİ£—ÿ.
-£
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ëø©ğùÿÿÿÿ8­‹·éş.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(•ØÍûÿÿÿÿ8×¥°íş.
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(ÕóÊ¯şÿÿÿÿ8Óê”’ÿ.
+T	java:S106d"9Replace this use of System.out or System.err by a logger.(ù¿û8ÑŸÙƒ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÎÒøÿÿÿÿ8Üë³íş.
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ıŸ¹ªûÿÿÿÿ8ÿ¿ëş.
 Z	java:S1062"9Replace this use of System.out or System.err by a logger.(úÒöŠùÿÿÿÿ8²ü€‘ÿ.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›ô”×ıÿÿÿÿ
+U	java:S106A"9Replace this use of System.out or System.err by a logger.(Æ€È¾8¼àîş.
 Z	java:S106$"9Replace this use of System.out or System.err by a logger.(·şì¯ÿÿÿÿÿ8ÿ¿ëş.
-Z	java:S106["9Replace this use of System.out or System.err by a logger.(Ô¡‚†øÿÿÿÿ8«íŠ›ÿ.
 U	java:S106="9Replace this use of System.out or System.err by a logger.(«¶Šó8¤£—ÿ.
 U	java:S106?"9Replace this use of System.out or System.err by a logger.(¬Òâ8³îş.
+|
+java:S1488n"ZImmediately return this expression instead of assigning it to the temporary variable "a4".(ğâ•Íúÿÿÿÿ8«éÙƒ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(•ØÍûÿÿÿÿ8×¥°íş.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(­†»Ø8×¥°íş.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‡ª®Î8×¥°íş.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ó»Û­øÿÿÿÿ8Üë³íş.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(åñÖV8²ü€‘ÿ.
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(‘§ù™üÿÿÿÿ8ø‘éş.
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ëø©ğùÿÿÿÿ8­‹·éş.
+w
+java:S1488]"ZImmediately return this expression instead of assigning it to the temporary variable "a1".(ÄêÄ§8Ş‰òØƒ/
 Z	java:S1060"9Replace this use of System.out or System.err by a logger.(…àÙæùÿÿÿÿ8µİúèş.
 U	java:S106,"9Replace this use of System.out or System.err by a logger.(¬Òâ8•Ôïâÿ.
-S	java:S106"9Replace this use of System.out or System.err by a logger.(›ô”×ıÿÿÿÿ
-U	java:S106"9Replace this use of System.out or System.err by a logger.(­†»Ø8×¥°íş.
-Z	java:S1067"9Replace this use of System.out or System.err by a logger.(‘§ù™üÿÿÿÿ8ø‘éş.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¾Ô®üÿÿÿÿ8Ñö®íş.
-Z	java:S106C"9Replace this use of System.out or System.err by a logger.(…àÙæùÿÿÿÿ8„Œîş.
-Z	java:S106M"9Replace this use of System.out or System.err by a logger.(ÕóÊ¯şÿÿÿÿ8Óê”’ÿ.
-T	java:S106Y"9Replace this use of System.out or System.err by a logger.(ù¿û8¯îó˜ÿ.
-Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ıŸ¹ªûÿÿÿÿ8ÿ¿ëş.
-U	java:S106W"9Replace this use of System.out or System.err by a logger.(ë°ü 8¯îó˜ÿ.
-U	java:S106A"9Replace this use of System.out or System.err by a logger.(Æ€È¾8¼àîş.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÎÒøÿÿÿÿ8Üë³íş.
-Z	java:S106E"9Replace this use of System.out or System.err by a logger.(úÒöŠùÿÿÿÿ8²ü€‘ÿ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(‡ª®Î8×¥°íş.
-U	java:S106U"9Replace this use of System.out or System.err by a logger.(«¶Šó8•Ôïâÿ.
+U	java:S106\"9Replace this use of System.out or System.err by a logger.(ë°ü 8Ş‰òØƒ/
+|
+java:S1488e"ZImmediately return this expression instead of assigning it to the temporary variable "a3".(˜ÿúÿÿÿÿ8àÆÙƒ/
+w
+java:S1488W"ZImmediately return this expression instead of assigning it to the temporary variable "a1".(ÄêÄ§8…·ñØƒ/

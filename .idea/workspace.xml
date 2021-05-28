@@ -5,8 +5,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0c3dfc-8238-4578-b027-d3a60f0aa691" name="Default Changelist" comment="Merge branch 'master' of https://github.com/bassbiteye/MyOffers into prototype&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MyOffers_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MyOffers_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_3_0_alpha_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a69a047a438faba252ba21467656c1ec8b06ad6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/960a4364b3423c0199b3e241a6959832d3ff7a15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0126b0dcc84b2ff893d0e542e311c3ba9c350a5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef5c975332ec72efba45a93b8c6939bd022a7a48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/controller/servlet/EntrepriseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/controller/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/controller/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/controller/servlet/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/controller/servlet/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/domain/Entreprise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/EntrepriseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/jdbc/jdbcEntrepriseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/entreprise.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/admin_template.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/ROOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyOffers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyOffers.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/143e9ac102114ea90b8082e54c3a542230f02e23" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/143e9ac102114ea90b8082e54c3a542230f02e23" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b611abf89d95dbd04ebb8480893e81f4cb35930" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b611abf89d95dbd04ebb8480893e81f4cb35930" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20e18f0bb9ab42064dd2acee24b57abde9f7a87b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20e18f0bb9ab42064dd2acee24b57abde9f7a87b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c6992ec5d03ae8be902062fcd581b9fd55a31ce" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c6992ec5d03ae8be902062fcd581b9fd55a31ce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4fbd0d112880f12d87c4a379680044aa0605ebbe" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4fbd0d112880f12d87c4a379680044aa0605ebbe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/622c3a30797ceca7153a275be86c80ff757e0932" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/622c3a30797ceca7153a275be86c80ff757e0932" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/703377c06d919219fc1fea57375f5c95d4e337bb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/703377c06d919219fc1fea57375f5c95d4e337bb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71012a838d5bfdf3dc7e10fc2edae932b44e5ff9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71012a838d5bfdf3dc7e10fc2edae932b44e5ff9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a9aea5288d5bcc4c15d4ba7e9e1f940d18b728b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a9aea5288d5bcc4c15d4ba7e9e1f940d18b728b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a8f18b5f4d3909d25301b6d993c88b514bf48f5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a8f18b5f4d3909d25301b6d993c88b514bf48f5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4c58841b29afb9c0cbec1c429681fbd945fe2a6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4c58841b29afb9c0cbec1c429681fbd945fe2a6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec7c44001e359db2ac9d4237e4f0e0c2e862db94" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec7c44001e359db2ac9d4237e4f0e0c2e862db94" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee4a2be07a54ca91d3d0bb3c4af7f38211af73b0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee4a2be07a54ca91d3d0bb3c4af7f38211af73b0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fad4c42ec4edda6e6684f431bf64a7ee9d2c2ca1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fad4c42ec4edda6e6684f431bf64a7ee9d2c2ca1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/jdbc/jdbcUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/repository/jdbc/jdbcUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myoffers/service/console/ConsoleDisplayUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myoffers/service/console/ConsoleDisplayUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myoffers/repository/jdbc/JdbcCandidatRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myoffers/repository/jdbc/JdbcCandidatRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myoffers/repository/jdbc/jdbcUserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myoffers/repository/jdbc/jdbcUserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/controller/CandidatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/controller/EntrepriseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/domain/Candidat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/domain/Offre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/domain/OffreUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/domain/RV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/domain/Recruter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/domain/Selectionner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/repository/CandidatRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/repository/OffreRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/repository/jdbc/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/repository/jdbc/JdbcCandidatRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/repository/jdbc/JdbcOffreRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/repository/jdbc/MysqlDataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/repository/jdbc/jdbcUserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/DisplayCandidat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/DisplayOffre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/DisplayUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/MenuCandidat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/MenuOffre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/MenuUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ConsoleDisplayCandidat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ConsoleDisplayOffre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ConsoleDisplayUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ScannerMenuCandidat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ScannerMenuOffre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myoffers/service/console/ScannerMenuUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59f9e54baefcce364cc4b28a375a11e4360e50f5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myoffers/repository/jdbc/JdbcCandidatRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myoffers/repository/jdbc/JdbcOffreRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myoffers/repository/jdbc/MockDatasource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myoffers/repository/jdbc/jdbcUserRepositoryTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +110,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,7 +138,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,23 +151,32 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/java/com/myoffers/service" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/assets/images" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.myoffers.repository.jdbc" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.myoffers.repository.jdbc" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.myoffers.repository" />
       <recent name="com.myoffers.repository.jdbc" />
+      <recent name="com.myoffers.controller.servlet" />
       <recent name="com.myoffers.service.console" />
       <recent name="com.myoffers.service" />
-      <recent name="com.myoffers.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JdbcOffreRepositoryTest">
-    <configuration name="App" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Maven.MyOffers [tomcat7:run]">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.myoffers.App" />
@@ -86,20 +185,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdbcCandidatRepositoryTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JdbcCandidatRepositoryTest.getAllCandidat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyOffers" />
       <extension name="coverage">
         <pattern>
@@ -109,13 +195,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.myoffers.repository.jdbc" />
       <option name="MAIN_CLASS_NAME" value="com.myoffers.repository.jdbc.JdbcCandidatRepositoryTest" />
-      <option name="METHOD_NAME" value="findById" />
+      <option name="METHOD_NAME" value="getAllCandidat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcCandidatRepositoryTest.mesOffres" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JdbcCandidatRepositoryTest.monRv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyOffers" />
       <extension name="coverage">
         <pattern>
@@ -125,13 +211,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.myoffers.repository.jdbc" />
       <option name="MAIN_CLASS_NAME" value="com.myoffers.repository.jdbc.JdbcCandidatRepositoryTest" />
-      <option name="METHOD_NAME" value="mesOffres" />
+      <option name="METHOD_NAME" value="monRv" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcCandidatRepositoryTest.updateProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JdbcCandidatRepositoryTest.postuler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyOffers" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +227,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.myoffers.repository.jdbc" />
       <option name="MAIN_CLASS_NAME" value="com.myoffers.repository.jdbc.JdbcCandidatRepositoryTest" />
-      <option name="METHOD_NAME" value="updateProfile" />
+      <option name="METHOD_NAME" value="postuler" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcCandidatRepositoryTest.recruté" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyOffers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myoffers.repository.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myoffers.repository.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.myoffers.repository.jdbc.JdbcCandidatRepositoryTest" />
+      <option name="METHOD_NAME" value="recruté" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,21 +264,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jdbcUserRepositoryTest.getAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyOffers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myoffers.repository.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myoffers.repository.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.myoffers.repository.jdbc.jdbcUserRepositoryTest" />
-      <option name="METHOD_NAME" value="getAllUsers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="MyOffers [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="MyOffersApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.myoffers.App" />
@@ -187,20 +298,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="Spring Boot.MyOffersApp" />
-      <item itemvalue="JUnit.jdbcUserRepositoryTest.getAllUsers" />
-      <item itemvalue="JUnit.JdbcCandidatRepositoryTest.findById" />
-      <item itemvalue="JUnit.JdbcCandidatRepositoryTest.mesOffres" />
-      <item itemvalue="JUnit.JdbcCandidatRepositoryTest.updateProfile" />
       <item itemvalue="JUnit.JdbcOffreRepositoryTest" />
+      <item itemvalue="JUnit.JdbcCandidatRepositoryTest.getAllCandidat" />
+      <item itemvalue="JUnit.JdbcCandidatRepositoryTest.postuler" />
+      <item itemvalue="JUnit.JdbcCandidatRepositoryTest.monRv" />
+      <item itemvalue="JUnit.JdbcCandidatRepositoryTest.recruté" />
+      <item itemvalue="Maven.MyOffers [tomcat7:run]" />
+      <item itemvalue="Spring Boot.MyOffersApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JdbcOffreRepositoryTest" />
-        <item itemvalue="JUnit.JdbcCandidatRepositoryTest.updateProfile" />
-        <item itemvalue="JUnit.jdbcUserRepositoryTest.getAllUsers" />
-        <item itemvalue="JUnit.JdbcCandidatRepositoryTest.mesOffres" />
-        <item itemvalue="JUnit.JdbcCandidatRepositoryTest.findById" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.JdbcCandidatRepositoryTest.getAllCandidat" />
+        <item itemvalue="JUnit.JdbcCandidatRepositoryTest.recruté" />
+        <item itemvalue="JUnit.JdbcCandidatRepositoryTest.monRv" />
+        <item itemvalue="JUnit.JdbcCandidatRepositoryTest.postuler" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +338,26 @@
       <workItem from="1615628052234" duration="1180000" />
       <workItem from="1615630611163" duration="592000" />
       <workItem from="1615755542455" duration="7158000" />
-      <workItem from="1615843518462" duration="27652000" />
+      <workItem from="1615843518462" duration="28051000" />
+      <workItem from="1616256721104" duration="942000" />
+      <workItem from="1616709205885" duration="396000" />
+      <workItem from="1616836357587" duration="2621000" />
+      <workItem from="1618870219442" duration="13000" />
+      <workItem from="1619025878456" duration="139000" />
+      <workItem from="1620467562109" duration="1402000" />
+      <workItem from="1621246319155" duration="256000" />
+      <workItem from="1621360274824" duration="450000" />
+      <workItem from="1621420017207" duration="4822000" />
+      <workItem from="1621425230347" duration="4920000" />
+      <workItem from="1621440069028" duration="1074000" />
+      <workItem from="1621441972493" duration="8435000" />
+      <workItem from="1621872861914" duration="2709000" />
+      <workItem from="1621959734173" duration="3290000" />
+      <workItem from="1621969369381" duration="94000" />
+      <workItem from="1621973049542" duration="388000" />
+      <workItem from="1622021910038" duration="10049000" />
+      <workItem from="1622056536867" duration="12005000" />
+      <workItem from="1622118637861" duration="2415000" />
     </task>
     <servers />
   </component>
@@ -249,6 +380,10 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="15" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="24" />
+        </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/myoffers/repository/jdbc/JdbcOffreRepository.java</url>
           <line>135</line>
@@ -263,13 +398,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyOffers$JdbcCandidatRepositoryTest_getAllCandidat.ic" NAME="JdbcCandidatRepositoryTest.getAllCandidat Coverage Results" MODIFIED="1615884171445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.myoffers.repository.jdbc.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/MyOffers$JdbcCandidatRepositoryTest_getCandidatsWhenExceptionOccured.ic" NAME="JdbcCandidatRepositoryTest.getCandidatsWhenExceptionOccured Coverage Results" MODIFIED="1615884789258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.myoffers.repository.jdbc.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/MyOffers$JdbcCandidatRepositoryTest_postuler.ic" NAME="JdbcCandidatRepositoryTest.postuler Coverage Results" MODIFIED="1615886594851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.myoffers.repository.jdbc.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/MyOffers$JdbcCandidatRepositoryTest_getAllCandidat.ic" NAME="JdbcCandidatRepositoryTest.getAllCandidat Coverage Results" MODIFIED="1615884171445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.myoffers.repository.jdbc.*</FILTER>
     </SUITE>
   </component>

@@ -1,83 +1,83 @@
 
-r
-java:S2095Â"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8é½ƒ—ÿ.
-a
-java:S21471"DCombine this catch with the one at line 46, which has the same body.(…‰”Ï8Şæ¼êş.
-V	java:S106"9Replace this use of System.out or System.err by a logger.(±³¦8®ŒÂ˜ÿ.
-h
-java:S1192 "FDefine a constant instead of duplicating this literal "titre" 3 times.(÷ñŸøÿÿÿÿ8½Á±ëş.
 
 java:S1488G"]Immediately return this expression instead of assigning it to the temporary variable "offre".(Ÿ®ııÿÿÿÿ8ğ‚ù‘ÿ.
-[	java:S106–"9Replace this use of System.out or System.err by a logger.( Ÿºøşÿÿÿÿ8ÃÙı‘ÿ.
-V	java:S106³"9Replace this use of System.out or System.err by a logger.(éÙÜ±8 ªÂ˜ÿ.
+r
+java:S2095¨"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8 ªÂ˜ÿ.
+[	java:S106†"9Replace this use of System.out or System.err by a logger.(É÷ ƒÿÿÿÿÿ8š¦¿Ùƒ/
+V	java:S106­"9Replace this use of System.out or System.err by a logger.(«øÿó8 ªÂ˜ÿ.
+j
+java:S2095X"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8´ü€‘ÿ.
+V	java:S106Ì"9Replace this use of System.out or System.err by a logger.(éÙÜ±8é½ƒ—ÿ.
+q
+java:S2095;"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8ÁéÙêş.
+m
+java:S2095î"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­…ø’8š¦¿Ùƒ/
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8Şæ¼êş.
+X
+java:S1141Á"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8é½ƒ—ÿ.
+m
+java:S2095±"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(÷Ëîâ8 ªÂ˜ÿ.
+k
+java:S2095¡"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8 ªÂ˜ÿ.
+i
+java:S1192!"LDefine a constant instead of duplicating this literal "description" 3 times.(Ãõ›8½Á±ëş.
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«¿Ÿø8Şæ¼êş.
+V	java:S106ù"9Replace this use of System.out or System.err by a logger.(¡õæÙ8š¦¿Ùƒ/
 k
 java:S2095Š"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8´ü€‘ÿ.
 X
-java:S1141¨"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8 ªÂ˜ÿ.
-V	java:S106®"9Replace this use of System.out or System.err by a logger.(«øÿó8 ªÂ˜ÿ.
-V	java:S106Œ"9Replace this use of System.out or System.err by a logger.(ÿê§¯8´ü€‘ÿ.
-V	java:S106Ú"9Replace this use of System.out or System.err by a logger.(´­Ê8ÛÁ…—ÿ.
-[	java:S106Ç"9Replace this use of System.out or System.err by a logger.(“Êşûÿÿÿÿ8é½ƒ—ÿ.
-k
-java:S2095»"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8÷Åˆ”ÿ.
-j
-java:S2095q"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8×Ò„ïş.
-j
-java:S2095X"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8´ü€‘ÿ.
-q
-java:S2095;"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8ÁéÙêş.
-q
-java:S2095Y"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8®Ç›”ÿ.
-k
-java:S2095¥"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8±î›ïş.
-c
-java:S1192$"FDefine a constant instead of duplicating this literal "ville" 3 times.(Åì ¸8½Á±ëş.
-r
-java:S2095õ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8®ŒÂ˜ÿ.
-k
-java:S2095¢"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8 ªÂ˜ÿ.
-X
-java:S1141ô"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8®ŒÂ˜ÿ.
-V	java:S106Ì"9Replace this use of System.out or System.err by a logger.(éÙÜ±8é½ƒ—ÿ.
-r
-java:S2095©"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8 ªÂ˜ÿ.
-k
-java:S2095î"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8®ŒÂ˜ÿ.
-V	java:S106¸"9Replace this use of System.out or System.err by a logger.(•ßœÍ8 ªÂ˜ÿ.
-[	java:S106Á"9Replace this use of System.out or System.err by a logger.(˜ıË¨úÿÿÿÿ8 ªÂ˜ÿ.
-i
-java:S2095r"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ò‡Áïş.
-V	java:S106“"9Replace this use of System.out or System.err by a logger.(ÿê§¯8ÃÙı‘ÿ.
-m
-java:S2095ş"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(÷Ëîâ8®ŒÂ˜ÿ.
-V	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(‘ŒÖ¯8é½ƒ—ÿ.
-m
-java:S2095Ë"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(÷Ëîâ8é½ƒ—ÿ.
-j
-java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8Şæ¼êş.
-Z	java:S106c"9Replace this use of System.out or System.err by a logger.(­´õ¶şÿÿÿÿ8úØí‘ÿ.
-i
-java:S1192!"LDefine a constant instead of duplicating this literal "description" 3 times.(Ãõ›8½Á±ëş.
-V	java:S106ÿ"9Replace this use of System.out or System.err by a logger.(éÙÜ±8®ŒÂ˜ÿ.
-v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«¿Ÿø8Şæ¼êş.
-X
-java:S1141Á"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8é½ƒ—ÿ.
-U	java:S106_"9Replace this use of System.out or System.err by a logger.(ÿê§¯8´ü€‘ÿ.
+java:S1141§"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8 ªÂ˜ÿ.
 j
 java:S2095:"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8ÁéÙêş.
+c
+java:S1192$"FDefine a constant instead of duplicating this literal "ville" 3 times.(Åì ¸8½Á±ëş.
+[	java:S106Ç"9Replace this use of System.out or System.err by a logger.(“Êşûÿÿÿÿ8é½ƒ—ÿ.
+V	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(‘ŒÖ¯8é½ƒ—ÿ.
+r
+java:S2095ô"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8š¦¿Ùƒ/
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(­´õ¶şÿÿÿÿ8úØí‘ÿ.
+j
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8Şæ¼êş.
+V	java:S106“"9Replace this use of System.out or System.err by a logger.(ÿê§¯8ÃÙı‘ÿ.
+r
+java:S2095Â"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8é½ƒ—ÿ.
+k
+java:S2095í"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8š¦¿Ùƒ/
+V	java:S106Œ"9Replace this use of System.out or System.err by a logger.(ÿê§¯8´ü€‘ÿ.
+V	java:S106"9Replace this use of System.out or System.err by a logger.(±³¦8š¦¿Ùƒ/
+V	java:S106²"9Replace this use of System.out or System.err by a logger.(éÙÜ±8 ªÂ˜ÿ.
+j
+java:S2095q"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8×Ò„ïş.
+[	java:S106–"9Replace this use of System.out or System.err by a logger.( Ÿºøşÿÿÿÿ8ÃÙı‘ÿ.
 [	java:S106ª"9Replace this use of System.out or System.err by a logger.(ß£şÿÿÿÿ8ÃÙı‘ÿ.
-V	java:S106ú"9Replace this use of System.out or System.err by a logger.(¡õæÙ8®ŒÂ˜ÿ.
+V	java:S106ş"9Replace this use of System.out or System.err by a logger.(éÙÜ±8š¦¿Ùƒ/
+V	java:S106·"9Replace this use of System.out or System.err by a logger.(•ßœÍ8 ªÂ˜ÿ.
 m
-java:S2095ï"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­…ø’8®ŒÂ˜ÿ.
-[	java:S106‡"9Replace this use of System.out or System.err by a logger.(É÷ ƒÿÿÿÿÿ8®ŒÂ˜ÿ.
+java:S2095ı"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(÷Ëîâ8š¦¿Ùƒ/
+r
+java:S2095¦"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8ÃÙı‘ÿ.
+X
+java:S1141ó"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8š¦¿Ùƒ/
+h
+java:S1192 "FDefine a constant instead of duplicating this literal "titre" 3 times.(÷ñŸøÿÿÿÿ8½Á±ëş.
+i
+java:S2095r"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ò‡Áïş.
+m
+java:S2095¢"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­…ø’8 ªÂ˜ÿ.
+V	java:S106Ú"9Replace this use of System.out or System.err by a logger.(´­Ê8ÛÁ…—ÿ.
+[	java:S106À"9Replace this use of System.out or System.err by a logger.(˜ıË¨úÿÿÿÿ8 ªÂ˜ÿ.
+k
+java:S2095»"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8÷Åˆ”ÿ.
+a
+java:S21471"DCombine this catch with the one at line 46, which has the same body.(…‰”Ï8Şæ¼êş.
 m
 java:S2095¼"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­…ø’8ŞÃö–ÿ.
 m
-java:S2095²"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(÷Ëîâ8 ªÂ˜ÿ.
-r
-java:S2095¦"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8ÃÙı‘ÿ.
-i
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8Şæ¼êş.
-m
-java:S2095£"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­…ø’8 ªÂ˜ÿ.
+java:S2095Ë"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(÷Ëîâ8é½ƒ—ÿ.
+U	java:S106_"9Replace this use of System.out or System.err by a logger.(ÿê§¯8´ü€‘ÿ.
+k
+java:S2095¥"HUse try-with-resources or close this "Connection" in a "finally" clause.(É¸öÒüÿÿÿÿ8±î›ïş.
+q
+java:S2095Y"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ8®Ç›”ÿ.

@@ -64,7 +64,7 @@ class JdbcCandidatRepositoryTest {
     void monRv() {
         System.out.println("Dans la méthode monRV");
         RV rv = jdbcCandidatRepository.monRv(1,1);
-        assertEquals(0, rv);
+        assertEquals(null, rv);
     }
 
     @Test

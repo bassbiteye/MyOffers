@@ -8,4 +8,6 @@ public interface UserRepository {
     int deleteUser(int id);
     User[] getAllUsers();
 
+     User logon(String login, String password);
+
 }

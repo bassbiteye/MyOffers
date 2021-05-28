@@ -17,7 +17,7 @@ public class jdbcUserRepository implements UserRepository {
     @Override
     public int addUser(User user) {
         int ok = 0;
-        String query = "INSERT INTO user (nom,prenom,role) VALUES(?,?,?)";
+        String query = "INSERT INTO user (nom,prenom,role,login,password) VALUES(?,?,?,?,?)";
         try {
 
             Connection connection = dataSource.createConnection();
@@ -26,6 +26,8 @@ public class jdbcUserRepository implements UserRepository {
             statement.setString(1,user.getNom());
             statement.setString(2, user.getPrenom());
             statement.setString(3, user.getRole());
+            statement.setString(4, user.getPassword());
+            statement.setString(5, user.getLogin());
             ok = statement.executeUpdate();
 
             if (ok > 0) {
@@ -41,7 +43,7 @@ public class jdbcUserRepository implements UserRepository {
 
     @Override
     public int UpdateUser(User user) {
-        String query = "UPDATE  user SET nom=?, prenom=?, role=?   where id=?";
+        String query = "UPDATE  user SET nom=?, prenom=?, role=?,login=?,password=?   where id=?";
         int ok = 0;
         try {
 
@@ -50,7 +52,9 @@ public class jdbcUserRepository implements UserRepository {
             statement.setString(1,user.getNom());
             statement.setString(2, user.getPrenom());
             statement.setString(3, user.getRole());
-            statement.setInt(4, user.getId());
+            statement.setString(4, user.getPassword());
+            statement.setString(5, user.getLogin());
+            statement.setInt(6, user.getId());
 
             System.out.println(statement);
             ok = statement.executeUpdate();
@@ -102,9 +106,11 @@ public class jdbcUserRepository implements UserRepository {
                 String nom = rs.getString("nom");
                 String prenom = rs.getString("prenom");
                 String role = rs.getString("role");
+                int tel = rs.getInt("tel");
+                String login = rs.getString("login");
 
                 //mapping retour db (relationnel) avec objet Offre
-                User user = new User( id, nom,prenom,role);
+                User user = new User( id, nom,prenom,role,tel,login);
 
                 users.add(user);
             }
@@ -118,4 +124,36 @@ public class jdbcUserRepository implements UserRepository {
             return new User[0];
         }
     }
+
+    @Override
+    public User logon(String login, String password){
+
+        String query = "SELECT * FROM user where login=? and password=?";
+
+        try {
+
+                Connection connection = dataSource.createConnection();
+                PreparedStatement statement = connection.prepareStatement(query);
+                statement.setString(1,login);
+                statement.setString(2, password);
+                ResultSet rs = statement.executeQuery() ;
+
+                while (rs.next()) {
+                    int id = rs.getInt("id");
+                    String nom = rs.getString("nom");
+                    String prenom = rs.getString("prenom");
+                    String role = rs.getString("role");
+                    int tel = rs.getInt("tel");
+                    String log = rs.getString("login");
+
+                    User user = new User( id, nom,prenom,role,tel,log);
+                    return user;
+
+                }
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }
+            return null;
+    }
+
 }

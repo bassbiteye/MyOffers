@@ -1,0 +1,4 @@
+com/myoffers/repository/jdbc/jdbcUserRepositoryTest.class
+com/myoffers/repository/jdbc/JdbcCandidatRepositoryTest.class
+com/myoffers/repository/jdbc/MockDatasource.class
+com/myoffers/repository/jdbc/JdbcOffreRepositoryTest.class

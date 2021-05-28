@@ -1,11 +1,11 @@
 
-M	java:S1069"9Replace this use of System.out or System.err by a logger.(ğßÌ{
-M	java:S106,"9Replace this use of System.out or System.err by a logger.(ğßÌ{
-X
-java:S1854#"=Remove this useless assignment to local variable "candidats".(¯—åÎüÿÿÿÿ
 Q
-java:S1854%";Remove this useless assignment to local variable "lastoff".(Ï©£¦
-B
-java:S1481%",Remove this unused "lastoff" local variable.(Ï©£¦
+java:S1854&";Remove this useless assignment to local variable "lastoff".(Ï©£¦
+M	java:S106-"9Replace this use of System.out or System.err by a logger.(ğßÌ{
 I
-java:S1481#".Remove this unused "candidats" local variable.(¯—åÎüÿÿÿÿ
+java:S1481$".Remove this unused "candidats" local variable.(¯—åÎüÿÿÿÿ
+B
+java:S1481&",Remove this unused "lastoff" local variable.(Ï©£¦
+X
+java:S1854$"=Remove this useless assignment to local variable "candidats".(¯—åÎüÿÿÿÿ
+M	java:S106:"9Replace this use of System.out or System.err by a logger.(ğßÌ{

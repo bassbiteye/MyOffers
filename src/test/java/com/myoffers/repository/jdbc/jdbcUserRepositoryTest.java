@@ -15,7 +15,7 @@ private jdbcUserRepository jdbcUserRepository;
 
     @Test
     void addUser() {
-        User user = new User(1,"biteye","bassirou","admin");
+        User user = new User(1,"biteye","bassirou","admin",771523139,"bassbiteye45@gmail.com");
         int ok = jdbcUserRepository.addUser(user);
         assertEquals(0, ok, "add user success");
 
@@ -23,7 +23,7 @@ private jdbcUserRepository jdbcUserRepository;
 
     @Test
     void updateUser() {
-        User user = new User(1,"biteye","bassirou","admin");
+        User user = new User(1,"biteye","bassirou","admin",771523139,"bassbiteye45@gmail.com");
         int ok = jdbcUserRepository.UpdateUser(user);
         assertEquals(0, ok, "update user success");
     }
